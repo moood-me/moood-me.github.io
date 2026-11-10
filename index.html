@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>moood lab</title>
+<meta name="description" content="moood's sandboxes: work beside the games — tried, kept, open.">
+<style>
+  :root { --bg: #fbfaf7; --ink: #1d1c1a; --muted: #6b6760; --line: #e4e0d8; --card: #ffffff; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #15161a; --ink: #ecebe7; --muted: #9b9890; --line: #2c2d33; --card: #1d1e23; } }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 17px/1.55 Georgia, 'Times New Roman', serif; }
+  main { max-width: 860px; margin: 0 auto; padding: 48px 16px 64px; }
+  h1 { font-weight: normal; letter-spacing: .02em; margin: 0 0 8px; font-size: 34px; }
+  p.lead { color: var(--muted); margin: 0 0 36px; }
+  .section { display: grid; grid-template-columns: 280px 1fr; gap: 20px; align-items: start; text-decoration: none; color: inherit;
+    background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 16px; margin-bottom: 16px; }
+  .section:hover { border-color: var(--muted); }
+  .section img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border-radius: 6px; background: var(--line); }
+  .section h2 { margin: 4px 0 6px; font-weight: normal; font-size: 22px; }
+  .section p { margin: 0 0 8px; }
+  .section small { color: var(--muted); font-family: ui-monospace, Consolas, monospace; font-size: 13px; }
+  footer { margin-top: 40px; color: var(--muted); font-size: 15px; }
+  footer a { color: inherit; }
+  @media (max-width: 640px) { .section { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+<main>
+  <h1>moood lab</h1>
+  <p class="lead">Sandboxes beside moood's games: ways tried, kept and open — for agents and people making worlds and games.
+    Each section is a public repository of its own.</p>
+
+  <a class="section" href="/works-010-art-direction/">
+    <img src="/works-010-art-direction/to3d/r1-s3-anya/pics/compare-side.webp" alt="A drawn girl and the same girl built in 3D, side by side" loading="lazy">
+    <div>
+      <h2>Characters</h2>
+      <p>Every way of making a character for a game that was tried — drawn styles and characters built in 3D — and the
+        parts for them: bodies, heads, hair, clothes. A catalogue, each item with its pictures, how it came out, and
+        its code.</p>
+      <small>moood-me/works-010-art-direction</small>
+    </div>
+  </a>
+
+  <footer><a href="https://moood.me">moood.me</a> · <a href="https://github.com/moood-me">github.com/moood-me</a></footer>
+</main>
+</body>
+</html>
